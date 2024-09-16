@@ -19,8 +19,10 @@ class FrontendManager:
         return int(input(msg))
     def run(self):
         while True:
-            choice = self.printMenu()
+            choice = self.printMenu() # it's display the message 
 
+## this conditon compaire input number  message lenth when it is true thsi task is perform
+          
             if choice ==1:
                 self.EmployeesManager.add_employee()
             elif choice == 2:

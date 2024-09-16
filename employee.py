@@ -1,3 +1,4 @@
+## this class take the parameter
 class Employee:
     def __init__(self, name, age, salary):
         self.name = name
@@ -9,3 +10,5 @@ class Employee:
 
     def __repr__(self):
         return F'Employee(name={self.name}, age={self.age}, salary={self.salary}'
+    
+
